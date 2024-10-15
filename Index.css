@@ -1,5 +1,5 @@
 body {
-      background-image: url('page.jpg');
+      background-image: url('agua.jpg');
       font-family: Arial, Helvetica, sans-serif;
       padding: 0px;
       margin: 0px; 
@@ -53,7 +53,7 @@ body {
   }
   
   .contenedor-encabezado{
-      background-image: url('page.jpg');
+      background-image: url('agua.jpg');
       padding: 20px;
       color: #ffffff;
       text-align: center;
@@ -283,4 +283,12 @@ form {
   height: 100vh; /* Toma toda la altura de la ventana */
   margin: 0; /* Elimina cualquier margen extra */
 
+}
+
+.botton {
+    text-align: right;
+    background-color: #fff;
+    padding: 10px;
+    width: 210px;
+    height: 20px;
 }
