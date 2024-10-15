@@ -1,0 +1,79 @@
+/* Asegura que la cabecera esté alineada correctamente */
+.botton {
+    text-align: right;
+    background-color: #fff;
+    padding: 10px;
+    width: 210px;
+    height: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;  /* Alinea los enlaces a la izquierda */
+    gap: 20px;  /* Añade espacio entre los enlaces */
+}
+
+.nav-links a {
+    color: #000;  /* Color del texto de los enlaces */
+    text-decoration: none;  /* Quita el subrayado de los enlaces */
+    font-size: 16px;  /* Tamaño de fuente */
+}
+
+.nav-links a:hover {
+    color: #5b99c2;  /* Color al hacer hover sobre el enlace */
+}
+
+/* Estilos para el calendario */
+.calendar-container {
+    max-width: 800px;
+    margin: 0 auto;  /* Centra el calendario */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header h1 {
+    text-align: center;  /* Centra el título del calendario */
+    margin-bottom: 20px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  /* Crea una cuadrícula con 7 columnas */
+    gap: 10px;
+}
+
+.day-header {
+    background-color: #5b99c2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.day {
+    background-color: #e6f2ff;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Opcional: Agrega un poco de estilo al fondo */
+body {
+    background-image: url('agua.jpg');
+    background-size: cover;
+    background-position: center;
+}
